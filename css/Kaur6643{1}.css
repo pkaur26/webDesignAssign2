@@ -1,0 +1,41 @@
+body{
+  background-color: khaki;
+}
+#page2{
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows: auto;
+
+grid-template-areas: 
+  "header"
+  "main"
+  "footer";
+  gap:2px;
+  place-items:center;
+}
+#header{
+  grid-area: header;
+  border:2px dashed red;
+  text-align: center;
+  padding: 10px; 
+}
+#main{
+  grid-area: main;
+  border:2px solid red;
+  text-decoration-color: crimson;
+  padding: 10px; 
+}
+#footer{
+  grid-area:footer;
+  border:2px dashed red;
+  text-align: center;
+  padding: 10px; 
+}
+img{
+  width: 30px;
+  height:30px;
+}
+table{
+  border-bottom: 2px lightcoral;
+border-top: 2px lightcoral;
+}
